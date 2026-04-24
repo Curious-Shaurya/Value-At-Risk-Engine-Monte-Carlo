@@ -6,10 +6,10 @@ This is a high-performance Monte Carlo Simulation Engine written in C++. It is d
 $S_{t+\Delta t} = S_t \times \exp\left(\left(\mu - \frac{\sigma^2}{2}\right)\Delta t + \sigma \sqrt{\Delta t} \cdot Z\right)$
 
 Where: 
-S_t is the current price 
-\mu is the drift (annual expected return)
-\sigma is the volatility (annual standard deviation) 
-\Delta t is the change in time (1/252 for a trading year) 
+St is the current price 
+mu is the drift (annual expected return)
+sigma is the volatility (annual standard deviation) 
+Delta t is the change in time (1/252 for a trading year) 
 Z is the correlated random shock everyday. 
 
 ### The Performance Metrics
