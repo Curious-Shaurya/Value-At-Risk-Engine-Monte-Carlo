@@ -13,9 +13,11 @@ S_t is the current price
 Z is the correlated random shock everyday. 
 
 ### The Performance Metrics
-Below are the execution times recorded on my local machine:
-Number of Simulations	Execution Time (ms)	Execution Time (seconds)
-10,000	                  376 ms	            0.38 s
-100,000	                  3,360 ms	          3.36 s
-500,000	                  15,641 ms	          15.64 s
-1,000,000	                31,096 ms	          31.10 s
+The following tests were conducted on my local machine using a multi-threaded C++ execution across 8 cores.
+
+| Number of Simulations | Execution Time (ms) | Execution Time (seconds) |
+| :--- | :--- | :--- |
+| 10,000 | 376 ms | 0.38 s |
+| 100,000 | 3,360 ms | 3.36 s |
+| 500,000 | 15,641 ms | 15.64 s |
+| 1,000,000 | 31,096 ms | 31.10 s |
