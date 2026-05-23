@@ -10,7 +10,7 @@ using namespace std;
 class Portfolio
 {
 private:
-    vector<vector<double>> CholeskyMatrix; // cholesky matrix doesn't make complete sense just yet.
+    vector<vector<double>> CholeskyMatrix; 
     vector<Position> positions;
     double totalValue;
 
